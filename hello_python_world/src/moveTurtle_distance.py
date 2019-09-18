@@ -2,6 +2,14 @@
 # --- moveTurtle_distance.py ------
 # Version vom 17.09.2019 by OJ
 # ohne OOP und Klasse
+#----------------------------------
+# Starten
+# $1 roscore
+# $2 rosrun turtlesim turtlesim_node 
+# $3 python moveTurtle_distance.py   (vorher ausführbar machen mit chmod +x)
+#------------------------------------------
+
+
 import rospy
 import math
 #from std_msgs.msg import String
