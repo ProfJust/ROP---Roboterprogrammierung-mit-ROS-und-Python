@@ -82,19 +82,24 @@ def move():
     #--- Dann die Strecke fahren ---
     while sqrt(pow((start_x - pose.x),2)+pow((start_y - pose.y),2)) < abs(dist):
         # Linear velocity in the x-axis.
-        vel_msg.linear.x = 0.2
-        rospy.loginfo("Pose is %s %s", pose.x, pose.y)
-        rospy.loginfo("Still to Go %s ", dist-sqrt(pow((start_x - pose.x),2)+pow((start_y - pose.y),2))  )
+       
+       
+       #----- hier Code einfügen ------
+       
+       
         # Publishing our vel_msg
-        velocity_publisher.publish(vel_msg)
+        
+            #----- hier Code einfügen ------
+               
+        
         # Publish at the desired rate.
         rate.sleep()
                 
     # Stopping our robot after the movement is over.
     rospy.loginfo("Reached aim - now stopping ")
-    vel_msg.linear.x = 0
-    vel_msg.angular.z = 0
-    velocity_publisher.publish(vel_msg)
+    
+        #----- hier Code einfügen ------
+       
     exit()
     # If we press control + C, the node will stop.
     # rospy.spin()
