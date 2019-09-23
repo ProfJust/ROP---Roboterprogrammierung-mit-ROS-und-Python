@@ -12,6 +12,7 @@ $ git clone https://github.com/ProfJust/ROP---Roboterprogrammierung-mit-ROS-und-
 
 
 ******* Wichtig!!! ******
+
 Alle *.py-Dateien ausführbar machen mit $ chmod +x DATEINAME.py 
 oder im Nautilus über die rechte Maustaste/Eigenschaften/Zugriffsrechte
 
