@@ -99,17 +99,7 @@ class TurtleBotClass:
 		vel_msg.angular.z = 0
 		self.velocity_publisher.publish(vel_msg)
 		#exit()
-	def turtleGo(self, v_x, v_theta):
-		vel_msg = Twist()
-		vel_msg.linear.x = v_x
-		vel_msg.angular.z = v_theta
-		# Publishing our vel_msg
-		self.velocity_publisher.publish(vel_msg)
-		# Publish at the desired rate.
-		self.rate.sleep()
 		
-		
-
 class Example(QWidget):	
 	def __init__(self): #Konstrukor
 		#Konstruktor der Elternklasse aufrufen
@@ -146,7 +136,7 @@ class Example(QWidget):
 		self.sld.valueChanged.connect(lcd.display)
 
 		pbLess.clicked.connect(self.SlotKlick)
-		pbMore.clicked.connect(self.SlotKlick)
+		pbMore.clicked.connect(self.SlotKlick)		
 		pbGo.clicked.connect(self.SlotGo)
 		
 		#Fenster Konfigurieren
