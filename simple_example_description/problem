@@ -1,3 +1,9 @@
+Starten des oberen Joints:
+$ rostopic pub -1 /simple_model/base_to_second_joint_position_controller/command std_msgs/Float64 3.0
+Stoppen:
+$ rostopic pub -1 /simple_model/base_to_second_joint_position_controller/command std_msgs/Float64 0.0
+
+
 Problem1
  rviz zeigt Robot nicht
 
