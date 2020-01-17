@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<!-- OJ 17.1.20 : Robotiq Gripper Aufruf => ur3_robotiq85_gripper.urdf.xacro -->
+<!-- OJ 17.1.20 : Robotiq Gripper Aufruf => ur3_robotiq85_gripper.urdf.xacro catkin_Ws/src/universal_robot/ur_description/launch ->
 <launch>
   <arg name="limited" default="false" doc="If true, limits joint range [-PI, PI] on all joints." />
   <arg name="transmission_hw_interface" default="hardware_interface/PositionJointInterface" />
