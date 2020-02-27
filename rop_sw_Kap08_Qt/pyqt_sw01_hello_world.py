@@ -1,6 +1,7 @@
 import sys
 from PyQt4 import QtGui
 # Hello World fuer PyQt 4
+# gitHub Test 
 def window():
    app = QtGui.QApplication(sys.argv)
    w = QtGui.QWidget()

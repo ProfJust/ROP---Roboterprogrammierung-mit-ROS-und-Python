@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/oj/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/oj/catkin_ws/src/Universal_Robots_ROS_Driver/controller_stopper/include/**",
+        "/home/oj/catkin_ws/src/mastering_ros_robot_description_pkg/include/**",
+        "/home/oj/catkin_ws/src/openslam_gmapping/include/**",
+        "/home/oj/catkin_ws/src/ROP---Roboterprogrammierung-mit-ROS-und-Python-1/robotiq/robotiq_gazebo/include/**",
+        "/home/oj/catkin_ws/src/rosserial/rosserial_server/include/**",
+        "/home/oj/catkin_ws/src/rosserial/rosserial_test/include/**",
+        "/home/oj/catkin_ws/src/Universal_Robots_ROS_Driver/ur_calibration/include/**",
+        "/home/oj/catkin_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/**",
+        "/home/oj/catkin_ws/src/fmauch_universal_robot/ur_kinematics/include/**",
+        "/home/oj/catkin_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/include/**",
+        "/home/oj/catkin_ws/src/youbot_driver/include/**",
+        "/home/oj/catkin_ws/src/youbot_driver_ros_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
